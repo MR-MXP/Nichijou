@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.mxp.mapper.UserInfoMapper">
+    <!-- 增加 -->
+    <!-- 删除 -->
+    <!-- 修改 -->
+    <!-- 查找 -->
+    	<select id="get" parameterType="int" resultType="UserInfo">
+    		select * from userinfo where id=#{id}
+    	</select>
+    	<sql id="">
+    		<where></where>
+    	</sql>
+    </mapper>
